@@ -39,7 +39,7 @@ project-directory/
 ├── Bid1/            # Contains input PDF/HTML files
 ├── Bid2/            # Contains input PDF/HTML files
 ├── ProcessedBids/   # Contains processed JSON files
-├── main.ipynb       # Main script to run the project
+├── emplay.ipynb     # Main script to run the project
 ├── .env             # Environment variables
 ├── requirements.txt # Project dependencies
 ├── .gitignore       # Files to ignore in Git
@@ -54,7 +54,7 @@ project-directory/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/azeemkhan1704/StructuredDocumentExtractor-PDF-HTML.git
    cd project-directory
    ```
 
@@ -130,15 +130,5 @@ The main script performs the following steps:
 A `requirements.txt` file is provided to install the necessary dependencies using:
 ```bash
 pip install -r requirements.txt
-```
-
-## Gitignore File
-The `.gitignore` file includes:
-```
-.env
-__pycache__/
-*.pyc
-venv/
-.DS_Store
 ```
 

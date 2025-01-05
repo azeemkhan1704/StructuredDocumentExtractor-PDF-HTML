@@ -78,7 +78,7 @@ project-directory/
 1. Place your input files (PDF/HTML) in the `Bid1` and `Bid2` folders.
 2. Run the main script:
    ```bash
-   python main.py
+   python emplay.ipynb
    ```
 3. Processed JSON files will be saved in the `ProcessedBids` folder.
 
